@@ -1,0 +1,63 @@
+<!-- We must always begin with an HTML label to show the browser that this is a document with an HTML format. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Inside the head tag we will define all the information the browser needs in order to start interpreting the page. -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Feed</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+    <!-- font Awesone cdn -->
+    <script src="https://kit.fontawesome.com/bccaf57fda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <!--The post will be hold in a card-->
+        <div class="card">
+            
+            <!-- 1st box -->
+            <div class="post_header">
+
+                <div class="user_details">
+                <!-- HTML icon -->
+                <div class="profile_img">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <!-- Title and user details -->
+                <h3>HTML5<br><span>Fernando</span></h3>
+                </div>
+                <!-- 2nd box -->
+                <div class="icon_dots">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+
+            <!-- Picture container -->
+            <div class="post_img">
+                <img src="https://picsum.photos/id/120/400/350" alt="randompic">
+            </div>
+
+            <!-- Body section : Icons and comments -->
+            <div class="post_body">
+                <!-- left icons: Reaction buttons -->
+                <div class="left">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <!-- Right icons: Bookmarks -->
+                <div class="right">
+                    <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+            <p class="likes">Liked by <span><strong>4GeeksAcademy, html5, Web </strong></span>and<span> 100.000 others</span></p>
+            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit, at facere cum praesentium minima quis minus fugit quos recusandae eius omnis aperiam consequuntur?</p>
+        </div>
+    </main>
+</body>
+</html>
